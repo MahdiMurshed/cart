@@ -3,9 +3,11 @@ import CategorySelect from "@/components/CategorySelect";
 import Navbar from "@/components/Navbar";
 import { Bookmark } from "lucide-react";
 import CardContainer from "@/components/CardContainer";
+import useVideos from "@/hook/useVideos";
 
 export default function Home() {
   const bookmarkCount = 2;
+  const { videos, loading } = useVideos();
   return (
     <div className="flex flex-col gap-2">
       <Navbar>
@@ -22,7 +24,7 @@ export default function Home() {
           </IconLink>
         </div>
       </Navbar>
-      <CardContainer />
+      <CardContainer data={videos} />
     </div>
   );
 }

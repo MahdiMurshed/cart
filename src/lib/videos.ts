@@ -2,6 +2,7 @@ export type Video = {
     imgUrl: string;
     title: string;
     id: string;
+    bookmarked?: boolean;
 }
 
 export const getCommonVideos = async (url:string) => {

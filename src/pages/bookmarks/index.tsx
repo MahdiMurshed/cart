@@ -1,10 +1,12 @@
 import CardContainer from "@/components/CardContainer";
 import IconLink from "@/components/IconLink";
 import Navbar from "@/components/Navbar";
+import useVideos from "@/hook/useVideos";
 import { Home } from "lucide-react";
 import React from "react";
 
 const Bookmark = () => {
+  const { videos, loading } = useVideos();
   return (
     <div className="flex flex-col gap-2">
       <Navbar>
@@ -13,7 +15,7 @@ const Bookmark = () => {
           <Home size={24} />
         </IconLink>
       </Navbar>
-      <CardContainer />
+      <CardContainer data={videos} />
     </div>
   );
 };

@@ -14,7 +14,7 @@ import { Bookmark } from "lucide-react";
 type Props = {
   id: string;
   name: string;
-  image?: string;
+  image: string;
 };
 export function DataCard({
   id,
