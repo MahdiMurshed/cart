@@ -15,13 +15,21 @@ pnpm dev
 bun dev
 ```
 # Design
-## Home Page
 [﻿View on canvas](https://app.eraser.io/workspace/3mjFCmyDjr227iXZ1v2s?elements=IW1H7tdXh9NyURgvAcYSwA) 
 
+![image.png](/.eraser/3mjFCmyDjr227iXZ1v2s___pmqb1QGVsbZhSwZv26G9OXA4bwD3___VREUeAwZzqfPwjjffjU_E.png "image.png")
 
 
-## Bookmarks
-[﻿View on canvas](https://app.eraser.io/workspace/3mjFCmyDjr227iXZ1v2s?elements=JGrj57FaHPHCzV3J9MeiEQ) 
+
+![image.png](/.eraser/3mjFCmyDjr227iXZ1v2s___pmqb1QGVsbZhSwZv26G9OXA4bwD3___8k4RbQc__n9YZ0aYVCTBV.png "image.png")
+
+
+
+# Technology
+- Nextjs
+- TailwindCSS
+- Shadcn/Ui
+
 
 
 <!--- Eraser file: https://app.eraser.io/workspace/3mjFCmyDjr227iXZ1v2s --->
