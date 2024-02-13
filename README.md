@@ -33,5 +33,9 @@ bun dev
 - Prisma
 
 
+# Docs
+- [﻿docker-compose.md](https://docs/docker-compose.md) 
+
+
 
 <!--- Eraser file: https://app.eraser.io/workspace/3mjFCmyDjr227iXZ1v2s --->
