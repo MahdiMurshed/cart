@@ -19,11 +19,7 @@ bun dev
 
 ![image.png](/.eraser/3mjFCmyDjr227iXZ1v2s___pmqb1QGVsbZhSwZv26G9OXA4bwD3___VREUeAwZzqfPwjjffjU_E.png "image.png")
 
-
-
 ![image.png](/.eraser/3mjFCmyDjr227iXZ1v2s___pmqb1QGVsbZhSwZv26G9OXA4bwD3___8k4RbQc__n9YZ0aYVCTBV.png "image.png")
-
-
 
 # Technology
 - Nextjs
@@ -31,10 +27,9 @@ bun dev
 - Shadcn/Ui
 - Mysql
 - Prisma
-
-
 # Docs
-- [﻿docker-compose.md](/docs/docker-compose.md) 
+- [recreate.md]("/docs/recreate.md")
+- [﻿docker-compose.md](https://docs/docker-compose.md) 
 
 
 
