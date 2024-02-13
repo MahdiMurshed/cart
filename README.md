@@ -29,6 +29,8 @@ bun dev
 - Nextjs
 - TailwindCSS
 - Shadcn/Ui
+- Mysql
+- Prisma
 
 
 
