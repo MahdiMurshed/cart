@@ -1,0 +1,28 @@
+# See docs\docker-compose.md for more information
+version: "3.8"
+services:
+  db:
+    image: mysql:8
+    restart: always
+    cap_add:
+      - SYS_NICE # CAP_SYS_NICE
+    environment:
+      MYSQL_DATABASE: "test-db"
+      MYSQL_USER: "user"
+      MYSQL_PASSWORD: "password"
+      MYSQL_ROOT_PASSWORD: "password"
+      MYSQL_TCP_PORT: 3309
+      MYSQL_ROOT_HOST: '0.0.0.0'
+    ports:
+      - "3309:3309"
+    expose:
+      - "3309"
+    volumes:
+      - temp-data:/var/lib/mysql
+      # - ./mysql-init.sql:/tmp/mysql-init.sql
+    command: --sort_buffer_size=512K
+  
+volumes:
+  temp-data:
+    external: false
+  
