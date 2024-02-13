@@ -3,34 +3,28 @@
 This is a [﻿Next.js](https://nextjs.org/) project bootstrapped with [﻿create-next-app](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
-First, run the development server:
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+- [getting-started.md](/docs/getting-started.md)
+
 # Design
-[﻿View on canvas](https://app.eraser.io/workspace/3mjFCmyDjr227iXZ1v2s?elements=IW1H7tdXh9NyURgvAcYSwA) 
+
+[﻿View on canvas](https://app.eraser.io/workspace/3mjFCmyDjr227iXZ1v2s?elements=IW1H7tdXh9NyURgvAcYSwA)
 
 ![image.png](/.eraser/3mjFCmyDjr227iXZ1v2s___pmqb1QGVsbZhSwZv26G9OXA4bwD3___VREUeAwZzqfPwjjffjU_E.png "image.png")
 
 ![image.png](/.eraser/3mjFCmyDjr227iXZ1v2s___pmqb1QGVsbZhSwZv26G9OXA4bwD3___8k4RbQc__n9YZ0aYVCTBV.png "image.png")
 
 # Technology
+
 - Nextjs
 - TailwindCSS
 - Shadcn/Ui
 - Mysql
 - Prisma
+
 # Docs
-- [recreate.md]("/docs/recreate.md")
-- [﻿docker-compose.md](https://docs/docker-compose.md) 
 
-
+- [getting-started.md](/docs/getting-started.md)
+- [﻿docker-compose.md](/docs/docker-compose.md)
 
 <!--- Eraser file: https://app.eraser.io/workspace/3mjFCmyDjr227iXZ1v2s --->

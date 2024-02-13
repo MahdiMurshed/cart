@@ -8,7 +8,12 @@
     "start": "next start",
     "lint": "next lint",
     "docker:up": "docker-compose up",
-    "docker:stop": "docker-compose stop"
+    "docker:stop": "docker-compose stop",
+    "db:generate": "prisma generate",
+    "db:push": "prisma db push",
+    "db:studio": "prisma studio",
+    "db:console": "docker exec -it cart_db_1 mysql -u root -password test-db",
+    "prisma": "prisma"
   },
   "dependencies": {
     "@prisma/client": "^5.9.1",
