@@ -34,7 +34,7 @@ bun dev
 
 
 # Docs
-- [﻿docker-compose.md](https://docs/docker-compose.md) 
+- [﻿docker-compose.md](/docs/docker-compose.md) 
 
 
 
