@@ -1,4 +1,4 @@
-# See docs\docker-compose.md for more information
+# See /docs/docker-compose.md for more information
 version: "3.8"
 services:
   db:
