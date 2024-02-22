@@ -27,3 +27,10 @@ model User {
   name  String?
   posts Post[]
 }
+
+model Video{
+  id Int @id @default(autoincrement())
+  title String
+  imgUrl String
+  bookmarked Boolean @default(false)
+}

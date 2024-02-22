@@ -40,7 +40,7 @@ pnpm dev
 ## Schema changes
 1. Run the following command to generate the Prisma client
 ```bash
-pnpm generate #(see package.json for the command definition)
+pnpm db:generate #(see package.json for the command definition)
 ```
 1. Run the following command to sync the schema defined in the `prisma/schema.prisma`  file with the database
 ```bash
